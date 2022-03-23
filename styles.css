@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Open+Sans:wght@300&family=Red+Hat+Mono:wght@300&family=Vast+Shadow&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+h2, h4 {
+    font-family: 'Red Hat Mono', monospace;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+.vast {
+    font-family: 'Red Hat Mono', monospace;
+    text-align: justify;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    font-size: 0.75rem;
+}
+
+body {
+    border: 0.5rem solid gray;
+    height: 100 vh;
+}
+
+nav {
+    background-color: #F4B9B2;
+    height: 15%;
+    width: 100%;
+    border-bottom: 0.5rem solid gray;
+ display: flex;
+ flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    padding-right: 5rem;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    height: 70%;
+    width: 100%;
+
+}
+
+article {
+    width: 75%;
+}
+
+aside {
+    background-color: #F4B9B2;
+    width: 25%;
+    border-left: 0.5rem solid gray;
+}
+
+aside li {
+    font-size: 0.75rem;
+}
+
+
+footer {
+    height: 15%;
+    width: 100%;
+    border-top: 0.5rem solid gray;
+    
+}
+nav, article, aside, footer {
+    padding: 1rem 0.75rem 1rem 0.5rem;
+}
